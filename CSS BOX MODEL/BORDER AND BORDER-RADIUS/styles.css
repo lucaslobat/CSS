@@ -1,0 +1,25 @@
+div {
+    height:200px;
+    width:200px;
+}
+#one {
+    background-color: #8e94f2;
+    border-width: 2px;
+    border-color:black;
+    border-style:solid;
+}
+/* We can use the shorthand border to stablish the 3 properties at once */
+#two {
+    background-color: #757bc8;
+    border: 2px solid black;
+}
+#three {
+    background-color: #9fa0ff;
+    border: medium solid black;
+    border-left:8px solid #757bc8;
+}
+#four {
+    background-color: #cbb2fe;
+    border:2px solid black;
+    border-radius:10px;
+}
