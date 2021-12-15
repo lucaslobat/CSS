@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CSS Values and Units</title>
+</head>
+
+<body>
+    <hr>
+    <h2>percentages:</h2>
+
+    <section>
+        <div>This div is using percentage as value for its the height and width.</div>
+    </section>
+    <hr>
+    <h2>ems: relative units (based on the font size of the parent element or the element itself,depending on the
+        property):</h2>
+
+    <article class="em">
+        <h3>this h3 has the font-size of 1em (1 time the size of the parents font-size (20px))</h3>
+        <p>This parragraph has the font-size of 1.2 em (1.2 times the font-size of the parent element (24px) that is
+            20px).
+            Then, it takes that value and multiplies it 6 times and stablishes its value as margin-left (24x 6 = 144px).
+        </p>
+        <ul>
+            <li>One</li>
+            <li>Two</li>
+            <li>Three
+                <ul>Three A</ul>
+                <ul>Three B
+                    <ul>
+                        Three B 2
+                    </ul>
+                </ul>
+            </li>
+        </ul>
+    </article>
+    <hr>
+    <h2>rem units: relative to the root html element's font-size:</h2>
+
+    <article class="rem">
+        <h3>this is an h3 with 3 rem font-size</h3>
+        <ul>
+            <li>One</li>
+            <li>Two</li>
+            <li>Three
+                <ul>Three A</ul>
+                <ul>Three B
+                    <ul>
+                        Three B 2
+                    </ul>
+                </ul>
+            </li>
+        </ul>
+    </article>
+
+</body>
+
+</html>

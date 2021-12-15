@@ -1,0 +1,40 @@
+html {
+    font-size: 20px;
+}
+
+section {
+    height:400px;
+    width:400px;
+    background-color: hsl(165, 15%, 58%);
+}
+ div  {
+     height:50%;
+     width:50%;
+     background-color:#f5cac3;
+ }
+
+ .em {
+     font-size: 20px;
+ }
+
+ h3 {
+     font-size:1em;
+ }
+
+ .em p {
+     font-size:1.2em;
+     margin-left:6em;
+ }
+
+ .rem h3{
+     font-size: 3rem;
+
+ }
+
+ ul {
+     font-size:1.3em;
+ }
+
+ .rem ul {
+     font-size:1.3rem;
+ }

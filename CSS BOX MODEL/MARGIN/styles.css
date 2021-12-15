@@ -1,0 +1,22 @@
+h1 {
+    background-color: #eae2b7;
+    width:200px;
+    padding:20px;
+}
+
+/* The parameters for the margin property follows top,right,bottom & left */
+.margin {
+    background-color: antiquewhite;
+    width:200px;
+    height:200px;
+    border:2px solid black;
+    margin:0px 0px 20px 0px ;
+}
+.margintwo{
+    background-color: bisque;
+    width:200px;
+    height:200px;
+    border:2px solid black;
+    border-top:8px solid rgba(190, 170, 145, 0.993);
+    margin: 50px 0px 0px 50px;
+}

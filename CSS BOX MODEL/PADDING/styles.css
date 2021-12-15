@@ -1,0 +1,19 @@
+h1{
+    width:150px;
+    background-color: #e8d1c5;
+    padding:20px;
+}
+div {
+    background-color: #eddcd2;
+    padding:20px;
+}
+
+.note {
+    background-color: #05afd1;
+    padding:30px;
+    border-left:8px solid #0072b3;
+}
+
+.padding {
+    padding:30px 0px 60px 60px;
+}
