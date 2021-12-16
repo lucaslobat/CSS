@@ -1,0 +1,22 @@
+.background {
+    width:600px;
+    height:600px;
+    background-color: #1b4332;
+    border:2px solid black;
+}
+
+.rgba {
+    width:80%;
+    height:40%;
+    background-color:rgba(250, 237, 205, 0.459);
+    border:1px solid black;
+    margin:20px;
+}
+.opacity {
+    width:80%;
+    height:40%;
+    background-color:#fefae0;
+    opacity:0.3;
+    border:1px solid black;
+    margin:20px;
+}
