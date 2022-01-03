@@ -1,0 +1,78 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    background-color: #003049;
+    width:80%;
+    height:25em;
+    margin: 0 auto;
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    border:2px solid black;
+}
+
+div {
+    width:200px;
+    height:200px;
+}
+
+section div:nth-of-type(1){
+    background-color:#9b5de5 ;
+
+}
+section div:nth-of-type(2){
+    background-color:#f15bb5 ;
+
+}
+section div:nth-of-type(3){
+    background-color:#fee440 ;
+
+}
+section div:nth-of-type(4){
+    background-color:#00bbf9 ;
+
+}
+section div:nth-of-type(5){
+    background-color:#00f5d4 ;
+
+}
+section div:nth-of-type(6){
+    background-color:#ff9f1c ;
+
+}
+section div:nth-of-type(7){
+    background-color:#ffbf69 ;
+
+}
+section div:nth-of-type(8){
+    background-color:#ffffff ;
+
+}
+section div:nth-of-type(9){
+    background-color:#cbf3f0 ;
+
+}
+section div:nth-of-type(10){
+    background-color:#2ec4b6 ;
+
+}
+section div:nth-of-type(11){
+    background-color:#555b6e ;
+
+}
+section div:nth-of-type(12){
+    background-color:#ffd6ba ;
+
+}
+
+section:nth-of-type(2)
+{
+    flex-flow:row wrap;
+}
