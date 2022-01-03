@@ -1,0 +1,115 @@
+body { 
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+
+
+.container {
+    background-color: #003049;
+    width:80%;
+    height:25em;
+    margin: 0 auto;
+    display:flex;
+    flex-direction:row;
+    margin-bottom: 10px;
+}
+.container2 {
+    background-color: #003049;
+    width:80%;
+    height:25em;
+    margin: 0 auto;
+    display:flex;
+    flex-direction:column;
+    margin-bottom: 10px;
+}
+.container3 {
+    background-color: #003049;
+    width:80%;
+    height:25em;
+    margin: 0 auto;
+    display:flex;
+    flex-direction:row-reverse;
+    margin-bottom: 10px;
+}
+.container4 {
+    background-color: #003049;
+    width:80%;
+    height:25em;
+    margin: 0 auto;
+    display:flex;
+    flex-direction:column-reverse;
+    margin-bottom: 10px;
+}
+
+.container div {
+    width:200px;
+    height:200px;
+
+}
+.container2 div {
+    width:200px;
+    height:200px;
+
+}
+.container3 div {
+    width:200px;
+    height:200px;
+
+}
+.container4 div {
+    width:200px;
+    height:200px;
+
+}
+
+.container div:nth-of-type(1){
+    background-color: #ee9b00;
+}
+.container div:nth-of-type(2){
+    background-color: #e9d8a6;
+}
+.container div:nth-of-type(3){
+    background-color: #94d2bd;
+}
+.container div:nth-of-type(4){
+    background-color: #0a9396;
+}
+
+
+.container2 div:nth-of-type(1){
+    background-color: #ee9b00;
+}
+.container2 div:nth-of-type(2){
+    background-color: #e9d8a6;
+}
+.container2 div:nth-of-type(3){
+    background-color: #94d2bd;
+}
+.container2 div:nth-of-type(4){
+    background-color: #0a9396;
+}
+.container3 div:nth-of-type(1){
+    background-color: #ee9b00;
+}
+.container3 div:nth-of-type(2){
+    background-color: #e9d8a6;
+}
+.container3 div:nth-of-type(3){
+    background-color: #94d2bd;
+}
+.container3 div:nth-of-type(4){
+    background-color: #0a9396;
+}
+.container4 div:nth-of-type(1){
+    background-color: #ee9b00;
+}
+.container4 div:nth-of-type(2){
+    background-color: #e9d8a6;
+}
+.container4 div:nth-of-type(3){
+    background-color: #94d2bd;
+}
+.container4 div:nth-of-type(4){
+    background-color: #0a9396;
+}
