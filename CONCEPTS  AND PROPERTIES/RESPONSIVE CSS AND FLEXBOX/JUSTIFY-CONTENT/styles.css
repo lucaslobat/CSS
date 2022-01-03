@@ -1,0 +1,102 @@
+body { 
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.container {
+    background-color: #003049;
+    width:80%;
+    height:25em;
+    margin: 0 auto;
+    display:flex;
+    margin-bottom: 10px;
+}
+
+div {
+    height:200px;
+    width:200px;
+}
+
+.container:nth-of-type(1){
+    justify-content: start;    
+}
+.container:nth-of-type(2){
+    justify-content: center;
+    
+}
+.container:nth-of-type(3){
+    justify-content: space-between;
+}
+.container:nth-of-type(4){
+    justify-content: space-around;
+}
+.container:nth-of-type(5){
+    justify-content: space-evenly;
+    
+}
+
+.container:nth-of-type(1) div:nth-of-type(1){
+    background-color: cornflowerblue;
+}
+.container:nth-of-type(1) div:nth-of-type(2){
+    background-color: #ca6702;
+}
+.container:nth-of-type(1) div:nth-of-type(3){
+    background-color: #ee9b00;
+}
+.container:nth-of-type(1) div:nth-of-type(4){
+    background-color: #94d2bd;
+}
+
+
+.container:nth-of-type(2) div:nth-of-type(1){
+    background-color: cornflowerblue;
+}
+.container:nth-of-type(2) div:nth-of-type(2){
+    background-color: #ca6702;
+}
+.container:nth-of-type(2) div:nth-of-type(3){
+    background-color: #ee9b00;
+}
+.container:nth-of-type(2) div:nth-of-type(4){
+    background-color: #94d2bd;
+}
+
+.container:nth-of-type(3) div:nth-of-type(1){
+    background-color: cornflowerblue;
+}
+.container:nth-of-type(3) div:nth-of-type(2){
+    background-color: #ca6702;
+}
+.container:nth-of-type(3) div:nth-of-type(3){
+    background-color: #ee9b00;
+}
+.container:nth-of-type(3) div:nth-of-type(4){
+    background-color: #94d2bd;
+}
+
+.container:nth-of-type(4) div:nth-of-type(1){
+    background-color: cornflowerblue;
+}
+.container:nth-of-type(4) div:nth-of-type(2){
+    background-color: #ca6702;
+}
+.container:nth-of-type(4) div:nth-of-type(3){
+    background-color: #ee9b00;
+}
+.container:nth-of-type(4) div:nth-of-type(4){
+    background-color: #94d2bd;
+}
+
+.container:nth-of-type(5) div:nth-of-type(1){
+    background-color: cornflowerblue;
+}
+.container:nth-of-type(5) div:nth-of-type(2){
+    background-color: #ca6702;
+}
+.container:nth-of-type(5) div:nth-of-type(3){
+    background-color: #ee9b00;
+}
+.container:nth-of-type(5) div:nth-of-type(4){
+    background-color: #94d2bd;
+}
