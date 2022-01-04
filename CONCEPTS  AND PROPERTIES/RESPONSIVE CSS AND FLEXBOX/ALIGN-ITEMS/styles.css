@@ -1,0 +1,46 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    background-color: #003049;
+    width:80%;
+    height:500px;
+    margin: 0 auto;
+    display:flex;
+    border:2px solid black;
+    flex-flow: row wrap;
+    justify-content: center; /* Justifies and spaces content along the main axis */
+    align-items:center; /* aligns flex-items along the cross axis*/
+
+}
+
+div {
+    width:200px;
+    height:200px;
+    font-size:2em;
+}
+
+section div:nth-of-type(1){
+    background-color:#9b5de5 ;
+    height:150px;
+
+}
+section div:nth-of-type(2){
+    background-color:#f15bb5 ;
+
+}
+section div:nth-of-type(3){
+    background-color:#fee440 ;
+    height:400px;
+
+}
+section div:nth-of-type(4){
+    background-color:#00bbf9 ;
+    align-self:flex-end; /* Overrides align-items property to align a single item across the cross axis  */
+
+}

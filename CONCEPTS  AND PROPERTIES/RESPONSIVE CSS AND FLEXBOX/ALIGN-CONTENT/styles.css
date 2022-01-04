@@ -1,0 +1,40 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    background-color: #003049;
+    width:80%;
+    height:500px;
+    margin: 0 auto;
+    display:flex;
+    border:2px solid black;
+    flex-flow: row wrap;
+    justify-content:space-evenly; /* spaces items across the main axis */
+    align-content: flex-end;
+}
+
+div {
+    width:600px;
+    height:200px;
+}
+
+section div:nth-of-type(1){
+    background-color:#9b5de5;
+
+}
+section div:nth-of-type(2){
+    background-color:#f15bb5 ;
+
+}
+section div:nth-of-type(3){
+    background-color:#fee440;
+
+}
+section div:nth-of-type(4){
+    background-color:#00bbf9;
+}
