@@ -1,0 +1,45 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.flex-container{
+    border:5px solid black;
+    width:80%;
+    margin: 0 auto;
+    gap:0.8rem;
+    display:flex; /* Its going for max-content intrisic size for the items if it can fit in the parent
+    but if we run out of room it allows line breaks */
+    justify-content: space-evenly;
+
+}
+
+.flex-container > div {
+    border:2px solid burlywood;
+    flex-shrink:1;
+    flex-grow:0;
+}
+
+section{
+    margin:20px 0 0 0;
+}
+
+header {
+    border-width: 5px solid black;
+}
+
+article {
+    background-color: cadetblue;
+    padding:20px;
+}
+
+.columns{
+    display:flex;
+    gap:1.2rem;
+    border: 2px solid black;
+}
+
+.columns > * {
+    flex-shrink:1; /* Take the max.content of the item and shrink them at the same ratio they had, in order to fit them in to the flex container */
+    flex-grow:1;
+    flex-basis:0; /* flex basis:0  goes to the min content intrisic size of the item. flex-basis: 1 goes to the max-content intrisic size of the item */
+}
