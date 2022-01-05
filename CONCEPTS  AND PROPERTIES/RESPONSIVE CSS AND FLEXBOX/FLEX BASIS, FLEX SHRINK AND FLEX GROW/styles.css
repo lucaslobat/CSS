@@ -39,7 +39,7 @@ article {
 }
 
 .columns > * {
-    flex-shrink:1; /* Take the max.content of the item and shrink them at the same ratio they had, in order to fit them in to the flex container */
-    flex-grow:1;
+    flex-shrink:0; /* Take the max.content of the item and shrink them at the same ratio they had, in order to fit them in to the flex container */
+    flex-grow:1; /* determines how much the flex item will grow relative to the rest of the flex items in the flex container when positive free space is distributed. */
     flex-basis:0; /* flex basis:0  goes to the min content intrisic size of the item. flex-basis: 1 goes to the max-content intrisic size of the item */
 }
