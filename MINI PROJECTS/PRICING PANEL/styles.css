@@ -84,8 +84,8 @@ ul {
     border-bottom:1px solid #e6e6e6;
 }
 
-.pricing-plan{
-    padding:2rem;
+.panel > *{
+    flex:1;
 }
 
 .pricing-img {
@@ -98,12 +98,18 @@ ul {
     color:#59aaf7;
 }
 
+.pricing-features-item:nth-of-type(1){
+    border-top:1px solid #e6e6e6;
+
+}
+
 .pricing-features-item{
     font-weight:600;
     letter-spacing: 0.2rem;
-    font-size:0.9rem;
+    font-size:0.8rem;
     line-height: 1.5;
     padding:0.5rem 0;
+    border-bottom:1px solid #e6e6e6;
 
 }
 
@@ -142,5 +148,6 @@ ul {
         border-right:1px solid #e6e6e6;
         border-bottom:none;
     }
+
 
 }
